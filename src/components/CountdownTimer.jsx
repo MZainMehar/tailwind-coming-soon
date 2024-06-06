@@ -10,7 +10,7 @@ function CountdownTimer() {
   });
 
   useEffect(() => {
-    const endTime = new Date('August 14, 2024 23:59:59 GMT+0530').getTime();
+    const endTime = new Date('July 6, 2024 23:59:59 GMT+0530').getTime();
     const interval = setInterval(() => {
       const now = new Date().getTime();
       const timeRemaining = endTime - now;
